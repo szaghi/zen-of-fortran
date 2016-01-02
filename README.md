@@ -1,4 +1,4 @@
-# ZEN of Fortran
+# <a name="top"></a> ZEN of Fortran
 
 > an opinionated coding guidelines for Fortran poor people:
 
@@ -25,8 +25,12 @@ This list is inspired by many sources
 ### <a name="standard"></a> Standard
 to be written
 
+Go to [TOP](#top)
+
 ### <a name="beautiful"></a> Beautiful
 to be written
+
+Go to [TOP](#top)
 
 ### <a name="explicit"></a> Explicit
 Implicit typing can *boost* the development of code-snippets, but
@@ -35,7 +39,7 @@ Implicit typing can *boost* the development of code-snippets, but
 
 Always use *implicit none* statement in:
 
-#### Modules
+##### Modules
 
 Once for all at the begining of modules definition
 
@@ -47,7 +51,7 @@ implicit none
 endmodule explicit_module
 ```
 
-#### Programs
+##### Programs
 
 Once for all at the begining of (main) programs definition
 
@@ -59,9 +63,9 @@ implicit none
 endprogram explicit_program
 ```
 
-#### Procedures
+##### Procedures
 
-For each procedures (function and subroutine) that are **not** *contained* into a module or program, at the begining of their definition
+For each procedure (function and subroutine) that is **not** *contained* into a module or program, at the begining of its definition
 
 ```fortran
 function explicit_function
@@ -81,8 +85,14 @@ endsubroutine explicit_subroutine
 
 > all procedures should be contained into a module or program: old-fashioned *file-libraries* containing (eventually unrelated) procedures without interfaces should be avoided.
 
+Go to [TOP](#top)
+
 ### <a name="simple"></a> Simple
 to be written
 
+Go to [TOP](#top)
+
 ### <a name="complex"></a> Complex
 to be written
+
+Go to [TOP](#top)
