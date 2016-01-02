@@ -1,6 +1,6 @@
-# zen-of-fortran
+# ZEN of Fortran
 
-> an opinionated coding guidelines for Fortran poor people
+> an opinionated coding guidelines for Fortran poor people:
 
 1. [standard](#standard) compliance is better than *custom or extended*; 
 2. [beautiful](#beautiful) is better than *ugly*;
@@ -9,7 +9,10 @@
 5. [CoMpleX](#complex) is better than *c0mp1|c@ted*;
 6. [flat](#flat) is better than *nested*;
 7. [s p a r s e](#sparse) is better than *dense*;
-6. to be continued
+8. [readability](#readability) counts;
+9. [special](#special) cases aren't special enough to break rules;
+10. although [practicalality](#practicality) beats purity;
+11. to be continued
 
 This list is inspired by many sources
 
@@ -26,7 +29,57 @@ to be written
 to be written
 
 ### <a name="explicit"></a> Explicit
-to be written
+Implicit typing can *boost* the development of code-snippets, but
+
+> it makes difficult to debug/read/understand medium/large codes.
+
+Always use *implicit none* statement in:
+
+#### Modules
+
+Once for all at the begining of modules definition
+
+```fortran
+module explicit_module
+...
+implicit none
+...
+endmodule explicit_module
+```
+
+#### Programs
+
+Once for all at the begining of (main) programs definition
+
+```fortran
+program explicit_program
+...
+implicit none
+...
+endprogram explicit_program
+```
+
+#### Procedures
+
+For each procedures (function and subroutine) that are **not** *contained* into a module or program, at the begining of their definition
+
+```fortran
+function explicit_function
+...
+implicit none
+...
+endfunction explicit_function
+```
+
+```fortran
+subroutine explicit_subroutine
+...
+implicit none
+...
+endsubroutine explicit_subroutine
+```
+
+> all procedures should be contained into a module or program: old-fashioned *file-libraries* containing (eventually unrelated) procedures without interfaces should be avoided.
 
 ### <a name="simple"></a> Simple
 to be written
