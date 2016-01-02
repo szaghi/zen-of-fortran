@@ -7,6 +7,8 @@
 3. [explicit](#explicit) is better than *impl.*;
 4. [simple](#simple) is better than *CoMpleX*;
 5. [CoMpleX](#complex) is better than *c0mp1|c@ted*;
+6. [flat](#flat) is better than *nested*;
+7. [s p a r s e](#sparse) is better than *dense*;
 6. to be continued
 
 This list is inspired by many sources
