@@ -11,7 +11,7 @@
 7. [s p a r s e](#sparse) is better than *dense*;
 8. [readability](#readability) counts;
 9. [special](#special) cases aren't special enough to break rules;
-10. although [practicalality](#practicality) beats purity;
+10. although [practicality](#practicality) beats purity;
 11. to be continued
 
 This list is inspired by many sources
