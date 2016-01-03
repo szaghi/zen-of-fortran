@@ -6,13 +6,17 @@
 2. [beautiful](#beautiful) is better than *ugly*;
 3. [explicit](#explicit) is better than *impl.*;
 4. [simple](#simple) is better than *CoMpleX*;
-5. [CoMpleX](#complex) is better than *c0mp1|c@ted*;
+5. [CoMpleX](#simple) is better than *c0mp1|c@ted*;
 6. [flat](#flat) is better than *nested*;
 7. [s p a r s e](#sparse) is better than *dense*;
 8. [readability](#readability) counts;
-9. [special](#special) cases aren't special enough to break rules;
-10. although [practicality](#practicality) beats purity;
-11. to be continued
+9. [special](#special) cases aren't special enough to break rules...
+10. although [practicality](#special) beats *purity*;
+11. [errors](#errors) should never pass *silently*...
+12. unless [errors](#errors) are explicitly *silenced*;
+13. to be continued
+
+### References
 
 This list is inspired by many sources
 
@@ -20,19 +24,19 @@ This list is inspired by many sources
 + [The Fortran Company styles](http://www.fortran.com/Fortran_Style.pdf)
 + to be continued
 
-## Motivations
+# Motivations
 
-### <a name="standard"></a> Standard
+## <a name="standard"></a> Standard
 to be written
 
 Go to [TOP](#top)
 
-### <a name="beautiful"></a> Beautiful
+## <a name="beautiful"></a> Beautiful
 to be written
 
 Go to [TOP](#top)
 
-### <a name="explicit"></a> Explicit
+## <a name="explicit"></a> Explicit
 Implicit typing can *boost* the development of code-snippets, but
 
 > it makes difficult to debug/read/understand medium/large codes.
@@ -87,12 +91,7 @@ endsubroutine explicit_subroutine
 
 Go to [TOP](#top)
 
-### <a name="simple"></a> Simple
-to be written
-
-Go to [TOP](#top)
-
-### <a name="complex"></a> Complex
+## <a name="simple"></a> Simple
 to be written
 
 Go to [TOP](#top)
