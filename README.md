@@ -3,18 +3,19 @@
 > an opinionated coding guidelines for Fortran poor people:
 
 1. [standard](#standard) compliance is better than *custom or extended*; 
-2. [beautiful](#beautiful) is better than *ugly*;
-3. [explicit](#explicit) is better than *impl.*;
-4. [simple](#simple) is better than *CoMpleX*;
-5. [CoMpleX](#simple) is better than *c0mp1|c@ted*;
-6. [flat](#flat) is better than *nested*;
-7. [s p a r s e](#sparse) is better than *dense*;
-8. [readability](#readability) counts;
-9. [special](#special) cases aren't special enough to break rules...
-10. although [practicality](#special) beats *purity*;
-11. [errors](#errors) should never pass *silently*...
-12. unless [errors](#errors) are explicitly *silenced*;
-13. to be continued
+1. [beautiful](#beautiful) is better than *ugly*;
+1. [explicit](#explicit) is better than *impl.*;
+1. [simple](#simple) is better than *CoMpleX*;
+1. [CoMpleX](#simple) is better than *c0mp1|c@ted*;
+1. [flat](#flat) is better than *nested*;
+1. [s p a r s e](#sparse) is better than *dense*;
+1. [readability](#readability) counts;
+1. [special](#special) cases aren't special enough to break rules...
+1. although [practicality](#special) beats *purity*;
+1. [private](#private) is better than *public*;
+1. [errors](#errors) should never pass *silently*...
+1. unless [errors](#errors) are explicitly *silenced*;
+1. to be continued
 
 ### References
 
