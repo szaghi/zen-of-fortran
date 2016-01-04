@@ -10,6 +10,14 @@
     1. [CoMpleX](#simple) is better than *c0mp1|c@ted*;
     1. [flat](#flat) is better than *nested*;
     1. [s p a r s e](#sparse) is better than *dense*;
+1. [fast](#fast) is better than *slow*:
+    1. [vector](#vector) is better than *loop*;
+    1. [matrix](#matrix) is better than *vector*;
+    1. [strided](#strided) is better than *scattered*;
+    1. [contiguous](#contiguous) is better than *strided*;
+    1. [broadcasting](#broadcasting) is a great idea, use where possible;
+1. [slow](#fast) is better than *unmaintainable*;
+1. make it look like the [math](#math);
 1. [special](#special) cases aren't special enough to break rules...
 1. although [practicality](#special) beats *purity*;
 1. [pure](#pure) procedure is better than *impure*...
